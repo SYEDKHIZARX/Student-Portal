@@ -1,0 +1,31 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# PHP
+vendor/
+composer.lock
+
+# Node
+node_modules/
+
+# Cache/Uploads/Temp
+uploads/
+cache/
+tmp/
+*.log
+
+# Build/archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Env/secrets (in case you add later)
+.env
+.env.*.local
+
+# Misc
+*.swp
